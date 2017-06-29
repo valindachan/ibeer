@@ -16,6 +16,7 @@ body{
     line-height: 1.8;
     margin: 0;
     background-color: #eeebda;
+
 }
 h1, h2, h3{
     font-family: "Josefin Sans", sans-serif;
@@ -30,8 +31,9 @@ img{
 .wrapper{
     width: 1000px;
 
+
     /*
-        TODO: 
+        TODO:
         - Center up the page
         - Create a flexbox containerer for
         the major page sections
@@ -47,9 +49,9 @@ img{
     text-align: center;
     padding: 60px 0 120px 0;
     font-size: 4em;
-
+    background-image: url('img/header-img.jpg');
     /*
-        TODO: 
+        TODO:
         - Add a background image "header-img.jpg"
         make sure that the path to the image is correct
     */
@@ -71,17 +73,13 @@ img{
     bottom: 20px;
     text-shadow: 0 5px 8px rgba( 0, 0, 0, 0.3 );
     /*
-        TODO: 
+        TODO:
         - Use the script font: 'Dancing Script' fot this text
     */
 }
 #main-navigation{
     background: #444;
-
-    /*
-        TODO: 
-        - Use Flexbox to arrange the navigation links
-    */
+    display: flex;
 }
 #main-navigation a{
     display: block;
@@ -91,7 +89,7 @@ img{
     padding: 10px 20px;
 
     /*
-        TODO: 
+        TODO:
         - Flexbox - Create general spacing between nav links
     */
 }
@@ -99,7 +97,7 @@ img{
     margin-right: 400px;
 
     /*
-        TODO: 
+        TODO:
         - Flexbox - The logo needs to take up more space
         that the other links
     */
@@ -109,7 +107,7 @@ main{
     background-color: #444;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
     /*
-        TODO: 
+        TODO:
         - Flexbox: Set the starting width of this element
         - Use relative positioning to bump this upward
     */
@@ -119,7 +117,7 @@ aside{
     background-color: #eee;
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
     /*
-        TODO: 
+        TODO:
         - Flexbox: Set the starting width of this element
         - Use relative positioning to bump this upward
     */
@@ -159,36 +157,23 @@ article time{
 }
 article img{
     /*
-        TODO: 
+        TODO:
         - Float article images to the right
         and match sizes and spacing to the mockup
     */
 }
 article footer p{
     /*
-        TODO: 
+        TODO:
         - Style the article footer
         HINT: Look to the article header;
     */
 }
 #site-footer{
-    
+
     background: #333;
     /*
-        TODO: 
+        TODO:
         - Style the site footer
     */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
