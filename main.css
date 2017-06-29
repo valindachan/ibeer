@@ -14,7 +14,7 @@ light tan: #eeebda
 body{
     font-family: 'Noto Serif', serif;
     line-height: 1.8;
-    margin: 0;
+    margin-top: 0;
     background-color: #eeebda;
 }
 h1, h2, h3{
@@ -32,7 +32,7 @@ img{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
+    justify-content: center;
     /*
         TODO:
         - Center up the page
@@ -109,7 +109,7 @@ main{
     padding: 20px;
     background-color: #444;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
-    width: 60%;
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -169,7 +169,7 @@ article time{
 }
 article img{
   float: right;
-  width: 40%;
+  width: 50%;
     /*
         TODO:
         - Float article images to the right
@@ -194,6 +194,7 @@ article footer p{
     text-align: center;
     color: #fff;
     background: #333;
+    margin-top: 20px;
     padding: 15px;
     /*
         TODO:
