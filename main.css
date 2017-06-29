@@ -30,7 +30,9 @@ img{
 }
 .wrapper{
     width: 1000px;
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
     /*
         TODO:
@@ -40,6 +42,7 @@ img{
     */
 }
 #site-header{
+    flex-direction: row;
     /*
         TODO
         - Flexbox property here
@@ -72,6 +75,7 @@ img{
     color: white;
     bottom: 20px;
     text-shadow: 0 5px 8px rgba( 0, 0, 0, 0.3 );
+    font-family: 'Dancing Script';
     /*
         TODO:
         - Use the script font: 'Dancing Script' fot this text
@@ -106,6 +110,11 @@ main{
     padding: 20px;
     background-color: #444;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 0em;
     /*
         TODO:
         - Flexbox: Set the starting width of this element
@@ -116,6 +125,9 @@ aside{
     padding: 20px;
     background-color: #eee;
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
+    width: 19%;
+    position: relative;
+
     /*
         TODO:
         - Flexbox: Set the starting width of this element
