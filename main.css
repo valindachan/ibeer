@@ -14,7 +14,8 @@ light tan: #eeebda
 body{
     font-family: 'Noto Serif', serif;
     line-height: 1.8;
-    margin-top: 0;
+    margin: 0;
+    padding: 0;
     background-color: #eeebda;
 }
 h1, h2, h3{
@@ -194,7 +195,7 @@ article footer p{
     text-align: center;
     color: #fff;
     background: #333;
-    margin-top: 20px;
+    margin: 20px 0 0;
     padding: 15px;
     /*
         TODO:
