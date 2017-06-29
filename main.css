@@ -16,7 +16,6 @@ body{
     line-height: 1.8;
     margin: 0;
     background-color: #eeebda;
-
 }
 h1, h2, h3{
     font-family: "Josefin Sans", sans-serif;
@@ -115,6 +114,7 @@ main{
     flex-wrap: wrap;
     position: relative;
     top: 0em;
+    margin-top: -2em;
     /*
         TODO:
         - Flexbox: Set the starting width of this element
@@ -127,7 +127,7 @@ aside{
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
     width: 19%;
     position: relative;
-
+    margin-top: -2em;
     /*
         TODO:
         - Flexbox: Set the starting width of this element
@@ -168,6 +168,8 @@ article time{
     color: #666;
 }
 article img{
+  float: right;
+  width: 40%;
     /*
         TODO:
         - Float article images to the right
@@ -175,6 +177,13 @@ article img{
     */
 }
 article footer p{
+  font-size: 0.8em;
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
+  color: #666;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
     /*
         TODO:
         - Style the article footer
@@ -182,8 +191,10 @@ article footer p{
     */
 }
 #site-footer{
-
+    text-align: center;
+    color: #fff;
     background: #333;
+    padding: 15px;
     /*
         TODO:
         - Style the site footer
